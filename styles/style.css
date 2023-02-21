@@ -1,0 +1,124 @@
+/*### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    
+}
+
+.container{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;    
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: 0px 20px 10px 10px hsl(216, 50%, 10%);
+}
+
+.image{
+    display: flex;
+    margin: 20px 20px 0px 20px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.title{
+    font-family: 'Outfit', sans-serif;
+    margin-right: 100px;    
+}
+
+h1{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.description{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    margin-left: 25px;
+    font-size: 16px;    
+}
+
+.price{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+svg{
+    margin-left: 20px;
+}
+
+.eth{
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 40px;
+}
+
+.daysleft{
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+hr{
+    width: 85%;
+    border-top: 1px hsl(215, 51%, 70%);
+}
+
+.creator{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;    
+}
+
+.avatar{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.author{
+    margin-left: 5px;
+    color: #fff;
+}
